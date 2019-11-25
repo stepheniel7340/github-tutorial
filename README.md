@@ -1,6 +1,6 @@
 # GitHub Tutorial
 
-_by <Stephenie Lin>_
+_by Stephenie Lin_
 
 ---
 ## Git vs. GitHub
