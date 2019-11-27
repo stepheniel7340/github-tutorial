@@ -9,9 +9,8 @@ _by Stephenie Lin_
 
 
 ---
-## Initial Setup
-**
-**_Github sign-up_**
+## Initial Setup  
+**_Github sign-up_** 
 1. Go to [github.com](https://github.com/)
 2. Click "Sign Up" on the top right corner
 3. Enter Username, Email address, and password
@@ -28,7 +27,8 @@ _That's it!_
 5. Title and paste the SSH key
 6. Go to your IDE and enter in "ssh -T git@github.com"   
 It should say _"Hi (username)! You've successfully authenticated, but GitHub does not provide shell access."_   
-_You're done!_
+_You're done!_  
+
 ---
 ## Repository Setup
 
