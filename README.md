@@ -19,7 +19,7 @@ _by Stephenie Lin_
 6. Do the survey and "submit"
 _That's it!_
 
-**_Next, we have to link Github to cloud_**
+**_Next, set up an SSH key_**
 1. Go to settings of your IDE
 2. Find the SSH key and copy
 3. Go to Github
