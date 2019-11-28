@@ -17,17 +17,13 @@ _by Stephenie Lin_
 4. Verify your account
 5. Select your plan free or $7 per month
 6. Do the survey and "submit"
-_That's it!_
+_That's it!_ 
 
-**_Next, set up an SSH key_**
-1. Go to settings of your IDE
-2. Find the SSH key and copy
-3. Go to Github
-4. Find the SSH key, click it
-5. Title and paste the SSH key
-6. Go to your IDE and enter in "ssh -T git@github.com"   
-It should say _"Hi (username)! You've successfully authenticated, but GitHub does not provide shell access."_   
-_You're done!_  
+**_Next, set up an SSH key_**  
+Follow the directions in this [link](https://github.com/hstatsep/ide50)  
+
+**_Why do we need an SSH key?_**
+SSH key is used to access your account. We need it because rather than signing in multiple times to enter our account we only have to sign in once. An SSH key is also used to link your local repo to remote repo.        
 
 ---
 ## Repository Setup
