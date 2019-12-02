@@ -4,8 +4,8 @@ _by Stephenie Lin_
 
 ---
 ## Git vs. GitHub
-**Git**: A tool using command lines to keep track of code or changes over time, it does not require Github
-**Github**: A website used to store Git, allows users to share and collaborate, it requires Git
+**Git**: A tool using command lines to keep track of code or changes over time, it does not require Github    
+**Github**: A website used to store Git, allows users to share and collaborate, it requires Git  
 
 
 ---
