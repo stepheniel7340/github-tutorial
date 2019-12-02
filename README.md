@@ -71,14 +71,16 @@ SSH key is used to access your account. We need it because rather than signing i
 --- 
 ## Error Handling 
 * If you `git init` in the wrong directory use `rm -rf .git`  
-* Remove a repository   
-    * On local 
-        1. go to IDE  
-        2. type `rm -rf`   
+* Remove a repository  
+
+   * On local    
+1. go to IDE  
+2. type `rm -rf`   
+
     * On remote, go to Github   
-        1. click on the repository you want to remove
-        2. click on "settings"
-        3. click on "danger zone"
-        4. click on "delete this repository"
-        5. Type in name of repository to confirm
-        6. click "I understand the consquences, delete this repository".
+1. click on the repository you want to remove
+2. click on "settings"
+3. click on "danger zone"
+4. click on "delete this repository"
+5. Type in name of repository to confirm
+6. click "I understand the consquences, delete this repository".
