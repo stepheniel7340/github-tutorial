@@ -55,15 +55,30 @@ SSH key is used to access your account. We need it because rather than signing i
 ---
 ## Workflow & Commands
 `git status`: checks which file/files are added on stage and ready to be committed  
-`git add .`: adds all files to staging area  
-`git commit -m "message"`: takes a "snapshot" of file on the staging area, or commits file to staging area   
-`git push`: pushes or sends commits to Github from cloud (IDE)
+`git add .`: adds all files to staging area     
+`git commit -m "message"`: takes a "snapshot" of file on the staging area, or commits file to staging area    
+`git push`: pushes or sends commits to Github from cloud (IDE)  
 
 
 ---
 ## Rolling Back Changes
 #### Mistakes can be undone with these steps  
 **Undo edits:** Enter `git checkout "filename"`  
-**Undo adds:** Enter `git reset HEAD "filename"`
-**Undo commits:** Enter `git reset --soft HEAD~1`
-**Undo push:** Enter `git log`, copy the SHA, lastly type `git revert "SHA"`  
+**Undo adds:** Enter `git reset HEAD "filename"`   
+**Undo commits:** Enter `git reset --soft HEAD~1`   
+**Undo push:** Enter `git log`, copy the SHA, lastly type `git revert "SHA"`   
+
+--- 
+## Error Handling 
+* If you `git init` in the wrong directory use `rm -rf .git`  
+* Remove a repository   
+    * On local 
+        1. go to IDE  
+        2. type `rm -rf`   
+    * On remote, go to Github   
+        1. click on the repository you want to remove
+        2. click on "settings"
+        3. click on "danger zone"
+        4. click on "delete this repository"
+        5. Type in name of repository to confirm
+        6. click "I understand the consquences, delete this repository".
