@@ -27,7 +27,7 @@ SSH key is used to access your account. We need it because rather than signing i
 
 ---
 ## Repository Setup
-**_In your [IDE]( http://ide.cs50.io/)_**  
+### **_In your [IDE]( http://ide.cs50.io/)_**  
 **Enter the following in your terminal** 
 1. `cd into the directory` (ex. `cd github-learning`)
 2. `git init`
@@ -62,3 +62,8 @@ SSH key is used to access your account. We need it because rather than signing i
 
 ---
 ## Rolling Back Changes
+#### Mistakes can be undone with these steps  
+**Undo edits:** Enter `git checkout "filename"`  
+**Undo adds:** Enter `git reset HEAD "filename"`
+**Undo commits:** Enter `git reset --soft HEAD~1`
+**Undo push:** Enter `git log`, copy the SHA, lastly type `git revert "SHA"`  
