@@ -54,7 +54,10 @@ SSH key is used to access your account. We need it because rather than signing i
 
 ---
 ## Workflow & Commands
-
+`git status`: checks which file/files are added on stage and ready to be committed  
+`git add .`: adds all files to staging area  
+`git commit -m "message"`: takes a "snapshot" of file on the staging area, or commits file to staging area   
+`git push`: pushes or sends commits to Github from cloud (IDE)
 
 
 ---
