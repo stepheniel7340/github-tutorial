@@ -47,7 +47,7 @@ SSH key is used to access your account. We need it because rather than signing i
 3. `git init` to the folder
 4. `git add .`
 5. `git commit -m "message"`
-6. In github and copy and paste git remote add origin `git@github.com:username/reponame.git`
+6. In github, copy and paste git remote add origin `git@github.com:username/reponame.git`
 7. Lastly, `git push -u origin master`
 
 
