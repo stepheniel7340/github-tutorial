@@ -84,4 +84,4 @@ Remove a repository on remote
 4. click on "danger zone"
 5. click on "delete this repository"
 6. Type in name of repository to confirm
-7. click "I understand the consquences, delete this repository".
+7. click "I understand the consequences, delete this repository".  
