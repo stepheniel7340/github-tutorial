@@ -31,9 +31,10 @@ SSH key is used to access your account. We need it because rather than signing i
 **Enter the following in your terminal** 
 1. `cd into the directory` (ex. `cd github-learning`)
 2. `git init`
-3. Add or edit stuff on your file
-4. `git add .`
-5. `git commit -m “message”` (ex. `git commit -m “change cat to dog”`)
+3. `touch "file-name"` to make a file
+4.  Add or edit stuff on your file
+5. `git add .`
+6. `git commit -m “message”` (ex. `git commit -m “change cat to dog”`)
 
 **_On [Github](https://github.com/)_**
 1. Click “new repository” on top right corner
