@@ -12,8 +12,10 @@ _by Stephenie Lin_
 ## Initial Setup  
 **_Github sign-up_** 
 1. Go to [github.com](https://github.com/)
-2. Click "Sign Up" on the top right corner
-3. Enter Username, Email address, and password
+2. Click "Sign Up" on the top right corner   
+![sign up](/github-learning/github-tutorial/Screen Shot 2019-12-02 at 9.32.44 AM.png)   
+3. Enter Username, Email address, and password   
+![create account](/github-learning/github-tutorial/Screen Shot 2019-11-25 at 11.32.08 PM.png)
 4. Verify your account
 5. Select your plan free or $7 per month
 6. Do the survey and "submit"
