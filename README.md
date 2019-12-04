@@ -30,11 +30,11 @@ SSH key is used to access your account. We need it because rather than signing i
 ### **_In your [IDE]( http://ide.cs50.io/)_**  
 **Enter the following in your terminal** 
 1. `cd into the directory` (ex. `cd github-learning`)
-2. `git init`
-3. `touch "file-name"` to make a file
+2. `git init` in the terminal
+3. `touch "file-name"` in the terminal, to make a file
 4.  Add or edit stuff on your file
-5. `git add .`
-6. `git commit -m “message”` (ex. `git commit -m “change cat to dog”`)
+5. `git add .` in the terminal
+6. `git commit -m “message”` (ex. `git commit -m “change cat to dog”`) in the terminal
 
 **_On [Github](https://github.com/)_**
 1. Click “new repository” on top right corner
@@ -43,13 +43,13 @@ SSH key is used to access your account. We need it because rather than signing i
 4. Make sure it’s on SSH
 
 **_Back in your [IDE]( http://ide.cs50.io/)_**
-1. Make a folder and name it the same as your repo name (ex. `mkdir folder`)
-2. `cd folder`, and create a `README.md file` (`touch README.md`)
-3. `git init` to the folder
-4. `git add .`
-5. `git commit -m "message"`
+1. Make a folder and name it the same as your repo name (ex. `mkdir folder`), in the terminal
+2. `cd folder`, and create a `README.md file` (`touch README.md`), in the terminal
+3. `git init` to the folder, in the terminal
+4. `git add .`, in the terminal
+5. `git commit -m "message"`, in the terminal
 6. In github, copy and paste git remote add origin `git@github.com:username/reponame.git`
-7. Lastly, `git push -u origin master`
+7. Lastly, `git push -u origin master`, in the terminal
 
 
 
@@ -63,7 +63,8 @@ SSH key is used to access your account. We need it because rather than signing i
 
 ---
 ## Rolling Back Changes
-#### Mistakes can be undone with these steps  
+#### Mistakes can be undone with these steps
+_Enter the following in your IDE terminal_      
 **Undo edits:** Enter `git checkout "filename"`  
 **Undo adds:** Enter `git reset HEAD "filename"`   
 **Undo commits:** Enter `git reset --soft HEAD~1`   
